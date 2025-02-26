@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illiad</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/post_video.css">
+</head>
+<body>
+    <nav class="topbar">
+        <a href="index.html" class="title">Illiad</a>
+    </nav>
+    <main>
+        <div class="post-video">
+            <h1>Postar Vídeo</h1>
+            <label for="title">Título</label>
+            <input type="text" name="title" id="title" placeholder="Título do vídeo">
+
+            <label for="description">Descrição</label>
+            <textarea name="description" id="description" placeholder="Descrição do vídeo"></textarea>
+
+            <label for="video">Vídeo</label>
+            <input type="file" name="video" id="video" accept="video/*">
+
+            <input type="submit" onclick="postVideo()" value="Postar" class="submit">
+        </div>
+    </main>
+    <script src="scripts/post_video.js"></script>
+</body>
+</html>

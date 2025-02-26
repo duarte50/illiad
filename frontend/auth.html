@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illiad</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/auth.css">
+</head>
+<body>
+    <nav class="topbar">
+        <a href="index.html" class="title">Illiad</a>
+    </nav>
+    <main>
+        <div class="auth">
+            <div class="sign-up">
+                <h1>Criar conta</h1>
+                <label for="nameSignUp">Nome de usuário</label>
+                <input type="text" name="nameSignUp" id="name">
+                <label for="emailSignUp">Email</label>
+                <input type="email" name="emailSignUp" id="emailSignUp">
+                <label for="passwordSignUp">Senha</label>
+                <input type="password" name="passwordSignUp" id="passwordSignUp">
+                <input type="submit" onclick="signUp()" value="Criar conta" class="alt-button submit">
+            </div>
+            <div class="login">
+                <h1>Logar</h1>
+                <label for="emailLogin">Email</label>
+                <input type="email" name="emailLogin" id="emailLogin">
+                <label for="passwordLogin">Senha</label>
+                <input type="password" name="passwordLogin" id="passwordLogin">
+                <input type="submit" onclick="login()" value="Logar" class="submit">
+            </div>
+        </div>
+    </main>
+    <script src="scripts/auth.js"></script>
+</body>
+</html>

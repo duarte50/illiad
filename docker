@@ -1,0 +1,4 @@
+sudo docker run --name illiad-db -e POSTGRES_PASSWORD="idjeJ,n29@" -p 5432:5432 -d postgres
+sudo docker start illiad-db
+sudo docker exec -it illiad-db psql -U postgres
+CREATE DATABASE illiad;

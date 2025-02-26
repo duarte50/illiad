@@ -1,0 +1,45 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1.title {
+    padding-left: 50px;
+}
+
+.auth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.sign-up, .login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth input {
+    background-color: #1E1E1E;
+    width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: text;
+    font-size: 14px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+
+input.submit {
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input.alt-button {
+    background-color: #FF6C01;
+}
